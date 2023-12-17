@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+    <listener class-name="listenerpkg.Allurelistener" />
+    <listener class-name="listenerpkg.Extentlistener" />
+</listeners>
+
+   <test  name="Test_Arry" preserve-order="true">
+    <classes>
+       <class name="dstestcases.Getdtartedtest"/>
+       <class name="dstestcases.Signintest"/>
+       <class name="dstestcases.Arraytest"/>
+       <class name="dstestcases.Tryeditortest"/>
+     </classes>
+  <!-- </test> 
+    <test  name="Test_Tree" preserve-order="true">
+     <classes>
+       <class name="dstestcases.Getdtartedtest"/>
+       <class name="dstestcases.Signintest"/>
+       <class name="dstestcases.Treetest"/>
+       <class name="dstestcases.Tryeditortest"/>
+      </classes>
+  </test>  
+   <test  name="Queue_Test" preserve-order="true">
+    <classes>
+       <class name="dstestcases.Getdtartedtest"/>
+       <class name="dstestcases.Signintest"/>
+       <class name="dstestcases.Queuetest"/>
+       <class name="dstestcases.Tryeditortest"/>
+      </classes>
+   </test>  
+  <test  name="Datastructure_Linkedlist-stack-graph" preserve-order="true">
+    <classes>
+       <class name="dstestcases.Getdtartedtest"/>
+       <class name="dstestcases.Signintest"/>
+       <class name="dstestcases.datastructuretest"/>
+       <class name="dstestcases.Linkedlisttest"/>
+       <class name="dstestcases.Stacktest"/>
+       <class name="dstestcases.Graphtest"/>
+        <class name="dstestcases.Tryeditortest"/>
+      </classes>
+   </test>  
+   
+     <test  name="signinregression" preserve-order="true">
+    <classes>
+       <class name="dstestdata.DataDrivenTest"/>
+       
+      </classes> -->
+   </test>  <!--Test --> 
+</suite> <!-- Suite -->
